@@ -1,24 +1,43 @@
 <!DOCTYPE html>
 	<html>
-		<head>
-			<title>{{ page.title }}</title>
+	<title> Stithi </title>
 			<!-- link to main stylesheet -->
-			<link rel="stylesheet" type="text/css" href="/css/main.css">
+			<!-- Google Fonts -->
+                        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300italic,700,700italic">
+
+                        <!-- CSS Reset -->
+                        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css">
+
+			<link rel="stylesheet" href="/css/milligram.min.css">
+			<style>
+			ul#menu li {display:inline;}
+			ul {list-style-type: none; margin: 0; padding: 0; overflow: hidden; background-color: #333;}
+			li {float: left;}
+			li a {display: block;color: white;text-align: center; padding: 14px 16px;text-decoration: none;}
+	        	li a:hover:not(.active) {background-color: #111;}.active {background-color: #8b008b;}
+			</style>
+
 		</head>
 		<body>
 			<nav>
 	    		<ul>
 	        		<li><a href="/">Home</a></li>
-		        	<li><a href="/about">About</a></li>
+		        	<li><a href="/about.html">About</a></li>
 	        		<li><a href="/news">News and Events</a></li>
 	        		<li><a href="/contacts">Contacts</a></li>
 	    		</ul>
 			</nav>
 			<div class="container">
-			
-			{{ content }}
-			
-			</div><!-- /.container -->
+				<div class="inner">
+				<br>
+				<br>
+					<h1>Stithi</h1>
+					<h2>APU Undergraduate Math Club</h2>	
+					
+		<body>
+		
+		<br>
+		<br>
 			<footer>
 	    	        <a href="vera.rao@apu.edu.in">Vera Rao</a>
           (vera.rao@apu.edu.in) and <a href="mailto:amrita.ray@apu.edu.in">Amrita Ray</a>
